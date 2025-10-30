@@ -1837,7 +1837,7 @@
             font-size: 0.95em;
             border-radius: 8px;
             padding: 8px;
-           color: white
+           color: white;
         }
     
         #txt-msg {
@@ -1927,6 +1927,7 @@
 
 
 }
+
 
 
 
