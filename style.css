@@ -1267,7 +1267,7 @@ a {
    (Cada seção ocupa a tela inteira, tudo centralizado)
 ========================== */
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
 
     /* ===== MENU ===== */
     #menu {
@@ -1914,3 +1914,4 @@ a {
     }
 
 }
+
