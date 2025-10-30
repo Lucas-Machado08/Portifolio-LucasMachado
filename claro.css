@@ -1525,7 +1525,7 @@
     
         #texto {
             font-size: 0.95em;
-            color: #fff;
+            color: black;
             line-height: 1.4;
             margin-top: 10px;
         }
@@ -1593,6 +1593,7 @@
         #organizador-infos {
             display: flex;
             transition: all 0.5s;
+           color: white;
         }
         
         #cell-number {
@@ -1823,7 +1824,9 @@
             color: rgba(10, 29, 126, 1);
             width: 37%;
         }
-    
+       #instr-msg{
+          color: white;
+       }
         #div-nome,
         #div-email,
         #div-msg {
@@ -1837,12 +1840,12 @@
             font-size: 0.95em;
             border-radius: 8px;
             padding: 8px;
-           color: white;
+           
         }
     
         #txt-msg {
             height: 100px;
-           color: white;
+           
         }
     
         #btn-send {
@@ -1927,6 +1930,7 @@
 
 
 }
+
 
 
 
