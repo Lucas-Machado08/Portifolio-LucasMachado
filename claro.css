@@ -1284,7 +1284,7 @@
             top: 0;
             left: 0;
             width: 100%;
-            background-color: rgba(10, 29, 126, 1);
+            background-color: rgb(81, 108, 134);
             height: 70px;
             display: flex;
             flex-direction: column;
@@ -1433,7 +1433,7 @@
     
         /* ===== INÍCIO ===== */
         #inicio {
-            background-color: rgba(42, 99, 152, 1);
+            background-color: rgb(128, 164, 201);
             height: 100vh;
         }
     
@@ -1925,3 +1925,4 @@
 
 
 }
+
