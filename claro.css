@@ -1837,10 +1837,12 @@
             font-size: 0.95em;
             border-radius: 8px;
             padding: 8px;
+           color: white
         }
     
         #txt-msg {
             height: 100px;
+           color: white;
         }
     
         #btn-send {
@@ -1925,5 +1927,6 @@
 
 
 }
+
 
 
