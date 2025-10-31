@@ -464,6 +464,7 @@ a {
     justify-content: center;
     border-radius: 20px;
     border: #fff solid 1px;
+    fill: white;
     transition: all 0.5s;
 }
 
@@ -487,6 +488,7 @@ a {
     border-radius: 20px;
     border: #fff solid 1px;
     margin-left: 15%;
+    fill: white;
     transition: all 0.5s;
 }
 
@@ -1917,7 +1919,6 @@ a {
     }
 
 }
-
 
 
 
