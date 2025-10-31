@@ -88,8 +88,30 @@ function fecharModal(modal) {
   document.body.style.overflow = '';
 }
 
+
+
+
+
+
+
+
+
+
+
+
 // alternar modo claro/escuro (caso use)
 function claro() {
   document.body.classList.toggle("claro");
-  localStorage.setItem('modoClaro', document.body.classList.contains('claro'));
+
+  let claroAtivo = document.body.classList.contains("claro");
+  localStorage.setItem("modo-claro", claroAtivo);
+  console.log(localStorage.getItem)
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  console.log(localStorage.getItem("modo-claro"))
+
+  if(localStorage.getItem("modo-claro") == "true"){
+    document.body.classList.add("claro")
+  }
+})
