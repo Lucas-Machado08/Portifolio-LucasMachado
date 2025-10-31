@@ -1531,6 +1531,9 @@
             text-align: center;
             margin: 0;
         }
+       #titulo-proj{
+         color: #8093f5;
+       }
     
         #titulo {
             font-size: 1.8em;
@@ -1953,6 +1956,7 @@
 
 
 }
+
 
 
 
