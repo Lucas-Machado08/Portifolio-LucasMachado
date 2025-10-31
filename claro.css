@@ -57,9 +57,9 @@
         content: "";
         position: fixed;
         width: 1.9%;
-        margin-top: 1.4%;
+        margin-top: 1.7%;
         height: 3px;
-        background-color: #fff;
+        background-color: black;
         visibility: hidden;
         -webkit-transform: scaleX(0);
         transform: scaleX(0);
@@ -76,10 +76,10 @@
     #menu-sobre:before {
         content: "";
         position: fixed;
-        width: 2%;
-        margin-top: 1.4%;
+        width: 2.5%;
+        margin-top: 1.7%;
         height: 3px;
-        background-color: #fff;
+        background-color: black;
         visibility: hidden;
         -webkit-transform: scaleX(0);
         transform: scaleX(0);
@@ -97,9 +97,9 @@
         content: "";
         position: fixed;
         width: 4.2%;
-        margin-top: 1.4%;
+        margin-top: 1.7%;
         height: 3px;
-        background-color: #fff;
+        background-color: black;
         visibility: hidden;
         -webkit-transform: scaleX(0);
         transform: scaleX(0);
@@ -117,9 +117,9 @@
         content: "";
         position: fixed;
         width: 2.8%;
-        margin-top: 1.4%;
+        margin-top: 1.7%;
         height: 3px;
-        background-color: #fff;
+        background-color: black;
         visibility: hidden;
         -webkit-transform: scaleX(0);
         transform: scaleX(0);
@@ -137,9 +137,9 @@
         content: "";
         position: fixed;
         width: 2.8%;
-        margin-top: 1.4%;
+        margin-top: 1.7%;
         height: 3px;
-        background-color: #fff;
+        background-color: black;
         visibility: hidden;
         -webkit-transform: scaleX(0);
         transform: scaleX(0);
@@ -758,6 +758,10 @@
         border-radius: 10px;
         box-shadow: 2px 2px 2px black;
     }
+    .txt-desc {
+        font-size: 1.3em;
+        margin-left: 10%;
+    }
 
     #proj-um>h1 {
         margin-left: 10%;
@@ -1090,7 +1094,7 @@
         background-color: rgb(24 85 143);
         width: 100%;
         height: 13vh;
-        margin-top: 13%;
+        margin-top: 5%;
     }
 
     #componentes-rodape {
@@ -1534,10 +1538,6 @@
             text-align: center;
             margin: 0;
         }
-       #titulo-proj{
-         color: #8093f5;
-       }
-    
         #titulo {
             font-size: 1.8em;
             color: black;
@@ -1611,7 +1611,7 @@
             font-size: 1.2em;
             font-family: "Afacad", sans-serif;
             font-weight: 600;
-            color: white;
+            color: black;
             margin-left: 2%;
             transition: all 0.5s;
         }
@@ -1619,14 +1619,14 @@
         #organizador-infos {
             display: flex;
             transition: all 0.5s;
-           color: white;
+           color: black;
         }
         
         #cell-number {
             font-size: 0.9em;
             font-family: "Afacad", sans-serif;
             font-weight: 100;
-            color: white;
+            color: black;
             margin-left: 8%;
             transition: 0.5s;
             transition: all 0.5s;
@@ -1652,15 +1652,16 @@
             align-items: center;
             justify-content: center;
             border-radius: 20px;
-            border: #fff solid 1px;
+            border: black solid 1px;
             transition: all 0.5s;
+            color: black;
         }
         
         #txt-linkedin {
             font-size: 1.3em;
             font-family: "Afacad", sans-serif;
             font-weight: 400;
-            color: white;
+            color: black;
             margin-left: 7%;
             margin-top: 1%;
             transition: all 0.5s;
@@ -1674,7 +1675,7 @@
             align-items: center;
             justify-content: center;
             border-radius: 20px;
-            border: #fff solid 1px;
+            border: black solid 1px;
             margin-left: 15%;
             transition: all 0.5s;
         }
@@ -1683,7 +1684,7 @@
             font-size: 1.5em;
             font-family: "Afacad", sans-serif;
             font-weight: 400;
-            color: white;
+            color: black;
             margin-left: 7%;
             margin-top: 1%;
             transition: all 0.5s;
@@ -1712,7 +1713,7 @@
     
         #titulo-hab {
             font-size: 1.8em;
-            color: rgba(10, 29, 126, 1);
+            color: #8093f5;
             margin-bottom: 20px;
             width: 100%;
             margin-left: 35%;
@@ -1783,7 +1784,7 @@
     
         #titulo-proj {
             font-size: 1.8em;
-            color: rgba(10, 29, 126, 1);
+            color: #8093f5;
             margin-bottom: 30px;
             margin-top: 5%;
             margin-left: 40%;
@@ -1817,6 +1818,7 @@
     
         .txt-desc {
             font-size: 0.8em;
+            margin-left: 10%;
         }
     
         #projetos-page a {
@@ -1932,10 +1934,11 @@
             font-size: 1.4em;
         }
     
-        #titulo,
+
         #titulo-hab,
         #titulo-proj {
             font-size: 1.6em;
+            color: #8093f5;
         }
     
         #texto {
@@ -1959,7 +1962,6 @@
 
 
 }
-
 
 
 
