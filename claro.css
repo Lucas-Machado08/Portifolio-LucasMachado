@@ -22,22 +22,27 @@
 
     #menu-inicio {
         transition: all 0.5s;
+       color: black;
     }
 
     #menu-sobre {
         transition: all 0.5s;
+       color: black;
     }
 
     #menu-hab {
         transition: all 0.5s;
+       color: black;
     }
 
     #menu-proj {
         transition: all 0.5s;
+       color: black;
     }
 
     #menu-ctt {
         transition: all 0.5s;
+       color: black;
     }
 
     #menu-btn {
@@ -245,7 +250,7 @@
         width: 7%;
         margin-left: 27%;
         height: 5vh;
-        background-color: rgba(25, 63, 98, 1);
+        background-color: rgb(73 141 203);
         text-decoration: none;
         margin-right: 5%;
         border-radius: 20px;
@@ -327,7 +332,7 @@
 
     #titulo {
         font-size: 3.7em;
-        color: #000000;
+        color: black;
         font-family: "Afacad", sans-serif;
         font-weight: 900;
     }
@@ -344,7 +349,7 @@
         font-family: "Afacad", sans-serif;
         font-weight: 200;
         font-size: 1.5em;
-        color: #000000;
+        color: black;
         width: 40%;
         text-align: left;
         margin-top: 20%;
@@ -362,21 +367,24 @@
         height: 5vh;
         display: flex;
         align-items: center;
+       color: black;
+       fill: black;
     }
 
     #txt-mail {
         font-size: 1.5em;
         font-family: "Afacad", sans-serif;
         font-weight: 600;
-        color: #000000;
+        color: black;
         margin-left: 2%;
+       
     }
 
     #mail-address {
         font-size: 1.2em;
         font-family: "Afacad", sans-serif;
         font-weight: 100;
-        color: #000000;
+        color: black;
         transition: 0.5s;
     }
 
@@ -393,13 +401,15 @@
         display: flex;
         align-items: center;
         margin-left: 8%;
+       color: black;
+       fill: black;
     }
 
     #txt-phone {
         font-size: 1.5em;
         font-family: "Afacad", sans-serif;
         font-weight: 600;
-        color: #000000;
+        color: black;
         margin-left: 2%;
     }
 
@@ -411,7 +421,7 @@
         font-size: 1.2em;
         font-family: "Afacad", sans-serif;
         font-weight: 100;
-        color: #000000;
+        color: black;
         margin-left: 8%;
         transition: 0.5s;
     }
@@ -434,15 +444,17 @@
         align-items: center;
         justify-content: center;
         border-radius: 20px;
-        border: #fff solid 1px;
+        border: black solid 1px;
         transition: 0.5s;
+       color: black;
+       fill: black
     }
 
     #txt-linkedin {
         font-size: 1.7em;
         font-family: "Afacad", sans-serif;
         font-weight: 400;
-        color: #000000;
+        color: black;
         margin-left: 7%;
         margin-top: 1%;
     }
@@ -455,7 +467,7 @@
         align-items: center;
         justify-content: center;
         border-radius: 20px;
-        border: #fff solid 1px;
+        border: black solid 1px;
         margin-left: 15%;
         transition: 0.5s;
     }
@@ -464,7 +476,8 @@
         font-size: 1.5em;
         font-family: "Afacad", sans-serif;
         font-weight: 400;
-        color: #000000;
+        color: black;
+       fill: black;
         margin-left: 7%;
         margin-top: 1%;
     }
@@ -492,7 +505,7 @@
     #titulo-hab {
         width: 100%;
         font-size: 3.7em;
-        color: black;
+        color: #8093f5;
         font-family: "Afacad", sans-serif;
         font-weight: 900;
         margin-left: 13%;
@@ -719,7 +732,7 @@
         width: 60%;
         height: 15vh;
         font-size: 3.7em;
-        color: black;
+        color: #8093f5;
         font-family: "Afacad", sans-serif;
         font-weight: 900;
         margin-left: 18%;
@@ -1011,10 +1024,13 @@
         font-weight: 900;
         font-size: 1.7em;
         width: 7.7%;
-        color: white;
+        color: #8093f5;
     }
 
     #instr-tel {
+        color: white;
+    }
+   #instr-msg {
         color: white;
     }
 
@@ -1290,6 +1306,7 @@
             flex-direction: column;
             justify-content: center;
             z-index: 100;
+           color: black;
         }
     
         #name {
@@ -1300,6 +1317,7 @@
             display: flex;
             justify-content: center;
             width: 100%;
+           color: black;
         }
     
         #itens-menu {
@@ -1311,19 +1329,20 @@
             margin-left: 7%;
             padding: 0%;
             font-size: 0.9em;
+           color: black;
         }
     
         #itens-menu li a {
             font-size: 0.9em;
-            color: #fff;
+            color: black;
         }
         #menu-inicio:before {
             content: "";
             position: fixed;
-            width: 2.8%;
+            width: 3%;
             margin-top: 3.6%;
             height: 3px;
-            background-color: #fff;
+            background-color: black;
             visibility: hidden;
             -webkit-transform: scaleX(0);
             transform: scaleX(0);
@@ -1340,10 +1359,10 @@
         #menu-sobre:before {
             content: "";
             position: fixed;
-            width: 2.8%;
+            width: 3%;
             margin-top: 3.6%;
             height: 3px;
-            background-color: #fff;
+            background-color: black;
             visibility: hidden;
             -webkit-transform: scaleX(0);
             transform: scaleX(0);
@@ -1360,10 +1379,10 @@
         #menu-hab:before {
             content: "";
             position: fixed;
-            width: 2.8%;
+            width: 3%;
             margin-top: 3.6%;
             height: 3px;
-            background-color: #fff;
+            background-color: black;
             visibility: hidden;
             -webkit-transform: scaleX(0);
             transform: scaleX(0);
@@ -1380,10 +1399,10 @@
         #menu-proj:before {
             content: "";
             position: fixed;
-            width: 2.8%;
+            width: 3%;
             margin-top: 3.6%;
             height: 3px;
-            background-color: #fff;
+            background-color: black;
             visibility: hidden;
             -webkit-transform: scaleX(0);
             transform: scaleX(0);
@@ -1400,10 +1419,10 @@
         #menu-ctt:before {
             content: "";
             position: fixed;
-            width: 2.8%;
+            width: 3%;
             margin-top: 3.6%;
             height: 3px;
-            background-color: #fff;
+            background-color: black;
             visibility: hidden;
             -webkit-transform: scaleX(0);
             transform: scaleX(0);
@@ -1545,13 +1564,14 @@
             display: flex;
             align-items: center;
             transition: all 0.5s;
+           fill: black;
         }
         
         #txt-mail {
             font-size: 1.2em;
             font-family: "Afacad", sans-serif;
             font-weight: 600;
-            color: white;
+            color: black;
             margin-left: 2%;
             transition: all 0.5s;
         }
@@ -1560,7 +1580,7 @@
             font-size: 0.9em;
             font-family: "Afacad", sans-serif;
             font-weight: 100;
-            color: white;
+            color: black;
             transition: 0.5s;
             transition: all 0.5s;
         }
@@ -1814,6 +1834,9 @@
             align-items: center;
             justify-content: center;
         }
+       #instr-msg {
+        color: white;
+       }
     
         #container-ctt {
             width: 85%;
@@ -1821,7 +1844,7 @@
     
         #container-ctt>h1 {
             font-size: 0.5em;
-            color: rgba(10, 29, 126, 1);
+            color: #8093f5;
             width: 37%;
         }
        #instr-msg{
@@ -1859,7 +1882,7 @@
         #rodape {
             background-color: rgba(9, 32, 54, 1);
             height: 10vh;
-            color: #fff;
+            color: black;
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -1930,6 +1953,7 @@
 
 
 }
+
 
 
 
